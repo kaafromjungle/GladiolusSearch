@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class YandexResultSearch {
 
-    private String selectorSearchItem = "//h2[@class=\"organic__title-wrapper typo typo_text_l typo_line_m\"]";
+    private String selectorSearchItem = "//h2[@class='organic__title-wrapper typo typo_text_l typo_line_m']";
     private String selectorUrl = "./a[@href]";
 
     private WebDriver driver;
